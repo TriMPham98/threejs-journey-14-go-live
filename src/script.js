@@ -32,7 +32,7 @@ fontLoader.load("/fonts/helvetiker_regular.typeface.json", (font) => {
   const material = new THREE.MeshMatcapMaterial({ matcap: matcapTexture });
 
   // Text
-  const textGeometry = new TextGeometry("Hello Three.js", {
+  const textGeometry = new TextGeometry("Tri Pham Go Live", {
     font: font,
     size: 0.5,
     height: 0.2,
